@@ -1,0 +1,25 @@
+{
+  "name": "@objectpartners/blog-post",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "@objectpartners/blog-post": "cli.js"
+  },
+  "author": "Dustin Schau <dustin.schau@objectpartners.com> (https://dustinschau.com)",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "date-fns": "~1.29.0",
+    "fs-extra": "~7.0.0",
+    "inquirer": "~6.0.0",
+    "limax": "~1.6.0"
+  },
+  "devDependencies": {
+    "ava": "~0.25.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
